@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="XMLEXBAT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Tarih"/>
+        <xs:element name="Hesaplar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Hesap">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Tanimlamalar">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="IbanNo"/>
+                          <xs:element type="xs:string" name="HesapTuru"/>
+                          <xs:element type="xs:short" name="HesapNo"/>
+                          <xs:element type="xs:int" name="MusteriNo"/>
+                          <xs:element type="xs:short" name="SubeKodu"/>
+                          <xs:element type="xs:string" name="SubeAdi"/>
+                          <xs:element type="xs:string" name="DovizTuru"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Hareketler">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Hareket">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Tarih"/>
+                                <xs:element type="xs:long" name="HareketSirano"/>
+                                <xs:element type="xs:float" name="Miktar"/>
+                                <xs:element type="xs:float" name="Bakiye"/>
+                                <xs:element type="xs:string" name="Aciklama"/>
+                                <xs:element type="xs:int" name="valor"/>
+                                <xs:element type="xs:string" name="timeStamp"/>
+                                <xs:element type="xs:time" name="ISL_Saat"/>
+                                <xs:element type="xs:byte" name="BankaKodu"/>
+                                <xs:element type="xs:string" name="ParaBirimi"/>
+                                <xs:element type="xs:string" name="Kaynak"/>
+                                <xs:element type="xs:string" name="IslemKodu"/>
+                                <xs:element type="xs:string" name="borcAlacak"/>
+                                <xs:element type="xs:string" name="IslemTuru"/>
+                                <xs:element type="xs:long" name="KarsiHesapVKN"/>
+                                <xs:element type="xs:integer" name="DekontNo"/>
+                                <xs:element type="xs:string" name="KarsiHesSahipAdUnvan"/>
+                                <xs:element type="xs:string" name="referans"/>
+                                <xs:element type="xs:int" name="Sirano"/>
+                                <xs:element type="xs:byte" name="KarsiBanka"/>
+                                <xs:element type="xs:int" name="KarsiSube"/>
+                                <xs:element type="xs:byte" name="KarsiHesap"/>
+                                <xs:element type="xs:string" name="KarsiBankaAdi"/>
+                                <xs:element type="xs:string" name="KarsiSubeAdi"/>
+                                <xs:element type="xs:string" name="IslemiYapanSubeAdi"/>
+                                <xs:element type="xs:string" name="IslemTod"/>
+                                <xs:element type="xs:int" name="EFTSorguNo"/>
+                                <xs:element type="xs:string" name="IthalatAciklamasi"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

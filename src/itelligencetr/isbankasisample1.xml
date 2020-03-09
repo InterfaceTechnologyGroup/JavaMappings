@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="windows-1254"?>
+<XMLEXBAT>
+  <Tarih>02/03/2020</Tarih>
+  <Hesaplar>
+    <Hesap>
+      <Tanimlamalar>
+        <IbanNo>TR660006400000111110021328</IbanNo>
+        <HesapTuru>Mevduat Hesab�</HesapTuru>
+        <HesapNo>0021328</HesapNo>
+        <MusteriNo>007460073</MusteriNo>
+        <SubeKodu>1111</SubeKodu>
+        <SubeAdi>�STANBUL KURUMSAL       </SubeAdi>
+        <DovizTuru>TL </DovizTuru>
+      </Tanimlamalar>
+      <Hareketler>
+        <Hareket>
+          <Tarih>02/03/2020</Tarih>
+          <HareketSirano>200302144748646720</HareketSirano>
+          <Miktar>          253000.00</Miktar>
+          <Bakiye>         2755560.69</Bakiye>
+          <Aciklama>PA�ABAH�E MA�AZALARI A.�.</Aciklama>
+          <valor>200302</valor>
+          <timeStamp>2020-03-02-14.47.48.360373</timeStamp>
+          <ISL_Saat>14:47:48</ISL_Saat>
+          <BankaKodu>064</BankaKodu>
+          <ParaBirimi>TRY</ParaBirimi>
+          <Kaynak>PA�ABAH�E MA�AZALARI A.�.</Kaynak>
+          <IslemKodu>E9</IslemKodu>
+          <borcAlacak>A</borcAlacak>
+          <IslemTuru>EFT</IslemTuru>
+          <KarsiHesapVKN>7230076871</KarsiHesapVKN>
+          <DekontNo>11111002132820200302144748360</DekontNo>
+          <KarsiHesSahipAdUnvan>PA�ABAH�E MA�AZALARI A.�.</KarsiHesSahipAdUnvan>
+          <referans>
+          </referans>
+          <Sirano>000646720</Sirano>
+          <KarsiBanka>0111</KarsiBanka>
+          <KarsiSube>90001</KarsiSube>
+          <KarsiHesap>0000000</KarsiHesap>
+          <KarsiBankaAdi>QNB F�NANSBANK A.�.</KarsiBankaAdi>
+          <KarsiSubeAdi>�BAN MERKEZ</KarsiSubeAdi>
+          <IslemiYapanSubeAdi>HAZ�NE B�L�M�</IslemiYapanSubeAdi>
+          <IslemTod>D78EE0BF471D6757</IslemTod>
+          <EFTSorguNo>6590762</EFTSorguNo>
+          <IthalatAciklamasi>
+          </IthalatAciklamasi>
+        </Hareket>
+		      <Hareket>
+          <Tarih>02/03/2020</Tarih>
+          <HareketSirano>200302144748646720</HareketSirano>
+          <Miktar>          253000.00</Miktar>
+          <Bakiye>         2755560.69</Bakiye>
+          <Aciklama>PA�ABAH�E MA�AZALARI A.�.</Aciklama>
+          <valor>200302</valor>
+          <timeStamp>2020-03-02-14.47.48.360373</timeStamp>
+          <ISL_Saat>14:47:48</ISL_Saat>
+          <BankaKodu>064</BankaKodu>
+          <ParaBirimi>TRY</ParaBirimi>
+          <Kaynak>PA�ABAH�E MA�AZALARI A.�.</Kaynak>
+          <IslemKodu>E9</IslemKodu>
+          <borcAlacak>A</borcAlacak>
+          <IslemTuru>EFT</IslemTuru>
+          <KarsiHesapVKN>7230076871</KarsiHesapVKN>
+          <DekontNo>11111002132820200302144748360</DekontNo>
+          <KarsiHesSahipAdUnvan>PA�ABAH�E MA�AZALARI A.�.</KarsiHesSahipAdUnvan>
+          <referans>
+          </referans>
+          <Sirano>000646720</Sirano>
+          <KarsiBanka>0111</KarsiBanka>
+          <KarsiSube>90001</KarsiSube>
+          <KarsiHesap>0000000</KarsiHesap>
+          <KarsiBankaAdi>QNB F�NANSBANK A.�.</KarsiBankaAdi>
+          <KarsiSubeAdi>�BAN MERKEZ</KarsiSubeAdi>
+          <IslemiYapanSubeAdi>HAZ�NE B�L�M�</IslemiYapanSubeAdi>
+          <IslemTod>D78EE0BF471D6757</IslemTod>
+          <EFTSorguNo>6590762</EFTSorguNo>
+          <IthalatAciklamasi>
+          </IthalatAciklamasi>
+        </Hareket>
+</Hareketler>
+    </Hesap>
+  </Hesaplar>
+</XMLEXBAT>
